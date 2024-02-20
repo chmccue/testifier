@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "jsx": "react-jsx",
+    "baseUrl": "",
+    "paths": {
+    "@testifier/methods": ["./src/utils/TestifierMethods"],
+    "@testifier/assert": ["./src/assertions/TestifierAssertions"],
+    "@testifier/interfaces": ["./src/Interfaces"],
+    }
+  }
+}

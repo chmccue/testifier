@@ -1,0 +1,37 @@
+{
+  "name": "@testifier/testifier",
+  "version": "1.0.0",
+  "description": "A simple and elegant Playwright wrapper to aid in fast automation test integration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chmccue/testifier.git"
+  },
+  "keywords": [
+    "testifier",
+    "test-automation",
+    "playwright-wrapper",
+    "automation-wrapper",
+    "automation wrap",
+    "test-wrapper",
+    "test wrap",
+    "testing"
+  ],
+  "author": "chmccue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chmccue/testifier/issues"
+  },
+  "homepage": "https://github.com/chmccue/testifier#readme",
+  "dependencies": {
+    "module-alias": "^2.2.3",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19"
+  }
+}
